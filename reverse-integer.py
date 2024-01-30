@@ -3,7 +3,7 @@
     For example, given 123, you should return 321.
 
     We are using the following steps to solve this problem:
-    1) Firstly, we need to declare the int_max and int_min variables.
+    1) Firstly, we need to declare the int_max variables.
     2) Then, we need to check if the number is negative or not. If it's negative then we convert it into positive by multiplying with -1.
     3) Then, we need to initialize the result variable to 0.
     4) After that, we will check if our input number is negative or positive. If it's negative then we will multiply it with -1.
@@ -13,7 +13,6 @@
 '''
 def reverseInteger(x):
     INT_MAX = 2 ** 31 - 1
-    INT_MIN = -2 ** 31
 
     result = 0
     sign = 1 if x >= 0 else -1
